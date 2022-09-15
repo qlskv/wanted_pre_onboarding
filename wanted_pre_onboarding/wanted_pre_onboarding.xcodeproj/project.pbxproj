@@ -18,6 +18,7 @@
 		5F65CBEB28CEE8BC0031C9B2 /* api_key.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F65CBEA28CEE8BC0031C9B2 /* api_key.plist */; };
 		5F65CBEE28CEFE5E0031C9B2 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F65CBEC28CEFE5E0031C9B2 /* WeatherTableViewCell.swift */; };
 		5F65CBEF28CEFE5E0031C9B2 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F65CBED28CEFE5E0031C9B2 /* WeatherTableViewCell.xib */; };
+		5F9112A328CFB0AE00855C7C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9112A228CFB0AE00855C7C /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5F65CBEA28CEE8BC0031C9B2 /* api_key.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = api_key.plist; sourceTree = "<group>"; };
 		5F65CBEC28CEFE5E0031C9B2 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
 		5F65CBED28CEFE5E0031C9B2 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		5F9112A228CFB0AE00855C7C /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				5F65CBEA28CEE8BC0031C9B2 /* api_key.plist */,
 				5F65CBEC28CEFE5E0031C9B2 /* WeatherTableViewCell.swift */,
 				5F65CBED28CEFE5E0031C9B2 /* WeatherTableViewCell.xib */,
+				5F9112A228CFB0AE00855C7C /* ViewController2.swift */,
 			);
 			path = wanted_pre_onboarding;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9112A328CFB0AE00855C7C /* ViewController2.swift in Sources */,
 				5F65CBEE28CEFE5E0031C9B2 /* WeatherTableViewCell.swift in Sources */,
 				5F65CBE628CEE6070031C9B2 /* WeatherService.swift in Sources */,
 				5F65CBD528CEDF550031C9B2 /* ViewController.swift in Sources */,

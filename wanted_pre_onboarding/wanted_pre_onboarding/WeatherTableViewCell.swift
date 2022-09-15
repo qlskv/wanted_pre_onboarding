@@ -36,4 +36,6 @@ class WeatherTableViewCell: UITableViewCell {
         return String(describing: self)
     }
     
+    
+    
 }

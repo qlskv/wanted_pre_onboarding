@@ -11,6 +11,7 @@ struct WeatherResponse: Decodable {
     let weather: [Weather]
     let main: Main
     let name: String
+    let wind: Wind
 }
 
 struct Main: Decodable {
@@ -18,6 +19,8 @@ struct Main: Decodable {
     let temp_min: Double
     let temp_max: Double
     let humidity: Double
+    let feels_like: Double
+    let pressure: Int
 }
 
 struct Weather: Decodable {
@@ -25,4 +28,8 @@ struct Weather: Decodable {
     let main: String
     let description: String
     let icon: String
+}
+
+struct Wind: Decodable {
+    let speed: Double
 }
